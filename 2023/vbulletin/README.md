@@ -8,7 +8,6 @@ See: https://www.ambionics.io/blog/vbulletin-unserializable-but-unreachable
 - [Search Link](https://app.netlas.io/responses/?page=1&q=tag.vbulletin.version%3A%3C%3D5.6.9)
 ```
  tag.vbulletin.version:<=5.6.9
-
 ```
 
 ```
