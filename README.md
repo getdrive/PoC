@@ -26,6 +26,12 @@ Improper Authentication vulnerability in WPDeveloper Essential Addons for Elemen
 vBulletin before 5.6.9 PL1 allows an unauthenticated remote attacker to execute arbitrary code via a crafted HTTP request that triggers deserialization. This occurs because verify_serialized checks that a value is serialized by calling unserialize and then checking for errors. 
 - [vBuletin Pre-authentication RCE Exploit](https://github.com/getdrive/POC/tree/main/2023/vbulletin)
 
+## 2022
+### F5-BIG-IP Remote Code Execution. CVE-2022-1388. CVSSv3 Score 9.8.
+#### Vulnerability description.
+This vulnerability may allow an unauthenticated attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands, create or delete files, or disable services.
+- [F5-BIG-IP Remote Code Execution Exploit](https://github.com/getdrive/POC/tree/main/2022/F5-Big-IP)
+
 ## 2019
 ### ThinVNC - Arbitrary File Read. CVE-2019-17662. CVSSv3 Score 9.8.
 #### Vulnerability description.
