@@ -1,5 +1,5 @@
 ## CVE-2019-17662
-### Shodan dorks: <br/>
+### Shodan dork: <br/>
     "ThinVNC"
 
 	  
