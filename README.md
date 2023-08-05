@@ -20,3 +20,9 @@ Sophos Web Appliance is vulnerable to CVE-2023-1671, a Remote Code Execution in 
 #### Vulnerability description.
 Nuxt Framework is affected by a Remote Code Execution vulnerability inside the nuxt-root.vue component. The root cause of this vulnerability is improper sanitization of user-provided input in the URL by accessing /__nuxt_component_test__/ endpoint. This allows an unauthenticated malicious attacker to execute commands on the Node.js server.
 - [Nuxt Framework - Remote Code Execution Exploit]()
+
+## 2019
+### ThinVNC - Arbitrary File Read. CVE-2019-17662. CVSSv3 Score 9.8.
+#### Vulnerability description.
+ThinVNC 1.0b1 is vulnerable to arbitrary file read, which leads to a compromise of the VNC server. The vulnerability exists even when authentication is turned on during the deployment of the VNC server. The password for authentication is stored in cleartext in a file that can be read via a ../../ThinVnc.ini directory traversal attack vector.
+- [ThinVNC - Arbitrary File Read Exploit](https://github.com/getdrive/POC/tree/main/2019/ThinVNC)
