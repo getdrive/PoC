@@ -21,6 +21,11 @@ Sophos Web Appliance is vulnerable to CVE-2023-1671, a Remote Code Execution in 
 Improper Authentication vulnerability in WPDeveloper Essential Addons for Elementor allows Privilege Escalation. This issue affects Essential Addons for Elementor: from 5.4.0 through 5.7.1.
 - [Essential Addons Exploit](https://github.com/getdrive/POC/tree/main/2023/Essential%20Addons)
 
+### vBuletin Pre-authentication RCE. CVE-2023-25135. CVSSv3 Score 9.8.
+#### Vulnerability description. 
+vBulletin before 5.6.9 PL1 allows an unauthenticated remote attacker to execute arbitrary code via a crafted HTTP request that triggers deserialization. This occurs because verify_serialized checks that a value is serialized by calling unserialize and then checking for errors. 
+- [vBuletin Pre-authentication RCE Exploit](https://github.com/getdrive/POC/tree/main/2023/vbulletin)
+
 ## 2019
 ### ThinVNC - Arbitrary File Read. CVE-2019-17662. CVSSv3 Score 9.8.
 #### Vulnerability description.
