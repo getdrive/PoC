@@ -8,7 +8,7 @@ Ivanti MobileIron is vulnerable to CVE-2023-35078, a vulnerability that allows u
 
 ### PaperCut - Unauthenticated Remote Code Execution. CVE-2023-27350. CVSSv3 Score 9.8.
 #### Vulnerability description.
-Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite is affected by a Remote Code Execution vulnerability. The root cause of this vulnerability is a special case treated by doUploadFile method which allows uploading a file using UUE encoding. The attacker can upload a malicious Perl web shell in order to achieve access to the server.
+PaperCut is vulnerable to CVE-2023-27350, an Authentication Bypass vulnerability in the SetupCompleted class. The root cause of this vulnerability is improper sanitization of user-provided input. This vulnerability allows a remote unauthenticated attacker to bypass authentication and execute commands within the SYSTEM context.
 - [PaperCut - Unauthenticated Remote Code Execution Exploit](https://github.com/getdrive/POC/tree/main/2023/PaperCut)
 
 ### Sophos Web Appliance - Remote Code. CVE-2023-1671. CVSSv3 Score 9.8.
