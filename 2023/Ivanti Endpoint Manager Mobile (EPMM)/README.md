@@ -13,7 +13,7 @@ path=/mifs
 ```
 Download the shodan json file and extract all IP addresses from it. You can do this with [shodan-parser](https://github.com/getdrive/POC/blob/main/2023/Ivanti%20Endpoint%20Manager%20Mobile%20(EPMM)/shodan-parser.py)or any other tool.
 
-- Transform shodan json to data <br/>
+- Transform shodan json to _data_file_ <br/>
 ```
 jq -cr 'select(.http.favicon.hash == 362091310) | [ if .ssl? then "https://" else "http://" end , (.ip_str) + ":" + (.port|tostring)] | add' shodan.json > data_file
 ```
