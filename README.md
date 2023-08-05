@@ -16,10 +16,10 @@ Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite is
 Sophos Web Appliance is vulnerable to CVE-2023-1671, a Remote Code Execution in the warn-proceed handler. The root cause of this vulnerability is improper sanitization of user-provided input. This vulnerability allows a remote unauthenticated attacker to inject commands through the data field by escaping commands with a single quote.
 - [Sophos Web Appliance - Remote Code Exploit](https://github.com/getdrive/POC/tree/main/2023/Sophos%20Web%20Appliance)
     
-### Nuxt Framework - Remote Code Execution. CVE-2023-3224. CVSSv3 Score 9.8.
-#### Vulnerability description.
-Nuxt Framework is affected by a Remote Code Execution vulnerability inside the nuxt-root.vue component. The root cause of this vulnerability is improper sanitization of user-provided input in the URL by accessing /__nuxt_component_test__/ endpoint. This allows an unauthenticated malicious attacker to execute commands on the Node.js server.
-- [Nuxt Framework - Remote Code Execution Exploit]()
+### Essential Addons for Elementor 5.4.0-5.7.1 - Unauthenticated Privilege Escalation. CVE-2023-32243. CVSSv3 Score 9.8.
+#### Vulnerability description. 
+Improper Authentication vulnerability in WPDeveloper Essential Addons for Elementor allows Privilege Escalation. This issue affects Essential Addons for Elementor: from 5.4.0 through 5.7.1.
+- [Essential Addons Exploit](https://github.com/getdrive/POC/tree/main/2023/Essential%20Addons)
 
 ## 2019
 ### ThinVNC - Arbitrary File Read. CVE-2019-17662. CVSSv3 Score 9.8.
