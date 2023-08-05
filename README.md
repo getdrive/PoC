@@ -11,7 +11,12 @@ Ivanti MobileIron is vulnerable to CVE-2023-35078, a vulnerability that allows u
 Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite is affected by a Remote Code Execution vulnerability. The root cause of this vulnerability is a special case treated by doUploadFile method which allows uploading a file using UUE encoding. The attacker can upload a malicious Perl web shell in order to achieve access to the server.
 - [PaperCut - Unauthenticated Remote Code Execution Exploit](https://github.com/getdrive/POC/tree/main/2023/PaperCut)
 
-
+### Sophos Web Appliance - Remote Code. CVE-2023-1671. CVSSv3 Score 9.8.
+#### Vulnerability description.
+Sophos Web Appliance is vulnerable to CVE-2023-1671, a Remote Code Execution in the warn-proceed handler. The root cause of this vulnerability is improper sanitization of user-provided input. This vulnerability allows a remote unauthenticated attacker to inject commands through the data field by escaping commands with a single quote.
+- [Sophos Web Appliance - Remote Code Exploit](https://github.com/getdrive/POC/tree/main/2023/Sophos%20Web%20Appliance)
+    
 ### Nuxt Framework - Remote Code Execution. CVE-2023-3224. CVSSv3 Score 9.8.
 #### Vulnerability description.
 Nuxt Framework is affected by a Remote Code Execution vulnerability inside the nuxt-root.vue component. The root cause of this vulnerability is improper sanitization of user-provided input in the URL by accessing /__nuxt_component_test__/ endpoint. This allows an unauthenticated malicious attacker to execute commands on the Node.js server.
+- [Nuxt Framework - Remote Code Execution Exploit]()
