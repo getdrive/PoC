@@ -24,7 +24,7 @@ python3 shodan-parser.py -o temp_data_file shodan.json
 ```
 awk '{print "https://"$0}' temp_data_file > data_file
 ```
-- How run check. <br/>
+- How to run a check. <br/>
 
    The format of the data_file should be as follows: **_http://ip_addr:port_** or **_https://ip_addr:port_** <br/> 
 ```
