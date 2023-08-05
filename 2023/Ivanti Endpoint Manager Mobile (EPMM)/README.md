@@ -16,7 +16,7 @@ Ivanti Endpoint Manager Mobile exploit <br/>
 
    The format of the data_file should be as follows: http://ip_addr:port or https://ip_addr:port <br/> 
 
-      while read line; do ./check.sh $line; done < data_file
+      chmod +x check.sh; while read line; do ./check.sh $line; done < data_file
 
 - Setup requirements <br/>
 
