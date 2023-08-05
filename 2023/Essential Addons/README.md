@@ -11,7 +11,6 @@ pip install -r requirements.txt
 
 
 ### Exploit Details
-
 https://patchstack.com/articles/critical-privilege-escalation-in-essential-addons-for-elementor-plugin-affecting-1-million-sites/
 
 - Usage
