@@ -13,7 +13,9 @@ Ivanti Endpoint Manager Mobile exploit <br/>
       python shodan-parser.py -o temp_data_file shodan.json
       awk '{print "https://"$0}' temp_data_file > data_file
 - How run check. <br/>
-      Format data_file must be http://ip_addr:port or https://ip_addr:port 
+
+   Format data_file must be http://ip_addr:port or https://ip_addr:port <br/> 
+
       while read line; do ./check.sh $line; done < data_file
 
 - Setup requirements <br/>
