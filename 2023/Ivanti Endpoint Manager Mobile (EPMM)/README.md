@@ -14,7 +14,7 @@ Ivanti Endpoint Manager Mobile exploit <br/>
       awk '{print "https://"$0}' temp_data_file > data_file
 - How run check. <br/>
 
-   The format of the data_file should be as follows: http://ip_addr:port or https://ip_addr:port <br/> 
+   The format of the data_file should be as follows: **_http://ip_addr:port_** or **_https://ip_addr:port_** <br/> 
 
       chmod +x check.sh; while read line; do ./check.sh $line; done < data_file
 
