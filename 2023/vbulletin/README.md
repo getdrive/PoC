@@ -1,6 +1,6 @@
 # CVE-2023-25135
 
-### Pre-authentication RCE
+vBulletin Pre-authentication RCE
 
 See: https://www.ambionics.io/blog/vbulletin-unserializable-but-unreachable
 
