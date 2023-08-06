@@ -11,3 +11,5 @@ http.favicon.hash:892542951
 ```
 python3 zabbix_session_exp.py -t https:target.com -u Admin
 ```
+### Demonstration Video (0:33)
+[Zabbix - SAML SSO Authentication Bypass](https://youtu.be/xVY98l0QU-M)
