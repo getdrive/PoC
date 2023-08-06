@@ -32,9 +32,9 @@ vBulletin before 5.6.9 PL1 allows an unauthenticated remote attacker to execute 
 This vulnerability may allow an unauthenticated attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands, create or delete files, or disable services.
 - [F5-BIG-IP Remote Code Execution Exploit](https://github.com/getdrive/POC/tree/main/2022/F5-Big-IP)
 
-### Zabbix - SAML SSO Authentication Bypass. CVE-2022-23131. CVSSv3 Score 9.8.
+### Zabbix - SAML SSO Authentication Bypass and Remote Code Execution. CVE-2022-23131. CVSSv3 Score 9.8.
 #### Vulnerability description.
-In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login stored in the session was not verified. Malicious unauthenticated actor may exploit this issue to escalate privileges and gain admin access to Zabbix Frontend. To perform the attack, SAML authentication is required to be enabled and the actor has to know the username of Zabbix user (or use the guest account, which is disabled by default).
+Zabbix server is affected by an Authentication Bypass vulnerability, located in the SSO endpoint. The root cause of this vulnerability consists in improper user login session verification. If SAML SSO authentication is enabled (disabled by default), a malicious attacker can modify the session data and gain access as a Zabbix user and then execute remote commands on the server by modifying the scripting functionality. The attacker needs to know the username of a Zabbix user to craft the session data. All the versions affected are up to and including 5.4.8, 5.0.18, and 4.0.36.
 - [Zabbix - SAML SSO Authentication Bypass Exploit](https://github.com/getdrive/POC/tree/main/2022/Zabbix)
 
 ## 2019
