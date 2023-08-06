@@ -7,8 +7,7 @@ title:zabbix
 ```
 http.favicon.hash:892542951
 ```
-### Usage
-- RCE
+- Usage
 ```
 python3 zabbix_session_exp.py -t https:target.com -u Admin
 ```
