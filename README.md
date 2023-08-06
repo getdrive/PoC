@@ -1,4 +1,4 @@
-# POC. Severity critical.
+# PoC. Severity critical.
 ## 2023
 ### Ivanti Endpoint Manager Mobile (EPMM) - Unauthenticated API Access. CVE-2023-35078. CVSSv3 Score 10.
 #### Vulnerability description.
