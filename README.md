@@ -37,6 +37,11 @@ This vulnerability may allow an unauthenticated attacker with network access to 
 Zabbix server is affected by an Authentication Bypass vulnerability, located in the SSO endpoint. The root cause of this vulnerability consists in improper user login session verification. If SAML SSO authentication is enabled (disabled by default), a malicious attacker can modify the session data and gain access as a Zabbix user and then execute remote commands on the server by modifying the scripting functionality. The attacker needs to know the username of a Zabbix user to craft the session data. All the versions affected are up to and including 5.4.8, 5.0.18, and 4.0.36.
 - [Zabbix - SAML SSO Authentication Bypass Exploit](https://github.com/getdrive/POC/tree/main/2022/Zabbix)
 
+### Oracle E-Business Suite - Remote Code Execution. CVE-2022-21587. CVSSv3 Score 9.8.
+#### Vulnerability description.
+Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite is affected by a Remote Code Execution vulnerability. The root cause of this vulnerability is a special case treated by doUploadFile method which allows uploading a file using UUE encoding. The attacker can upload a malicious Perl web shell in order to achieve access to the server.
+- [Oracle E-Business Suite - Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2022/Oracle_EBS)
+
 ## 2019
 ### ThinVNC - Arbitrary File Read. CVE-2019-17662. CVSSv3 Score 9.8.
 #### Vulnerability description.
