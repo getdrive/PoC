@@ -3,7 +3,7 @@ Oracle E-Business Suite - Remote Code Execution
 
 - Install
 ```
-git clone https://github.com/getdrive/PoC/2022/Oracle_EBS; cd Oracle_EBS 
+git clone https://github.com/getdrive/PoC/tree/main/2022/Oracle_EBS; cd Oracle_EBS 
 ```
 ```
 cp oracle_ebs_rce_cve_2022_21587.rb /usr/share/metasploit-framework/modules/exploits/linux/http/
