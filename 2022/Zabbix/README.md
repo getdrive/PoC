@@ -8,7 +8,7 @@ title:zabbix
 http.favicon.hash:892542951
 ```
 ```
-"html: Zabbix"
+"html: Zabbix" "html:(SAML)"
 ```
 - Usage
 ```
