@@ -1,11 +1,14 @@
 # CVE-2022-23131
 Zabbix - SAML SSO Authentication Bypass
-- Shodan dork:
+- Shodan dorks:
 ```
 title:zabbix
 ```
 ```
 http.favicon.hash:892542951
+```
+```
+"html: Zabbix"
 ```
 - Usage
 ```
