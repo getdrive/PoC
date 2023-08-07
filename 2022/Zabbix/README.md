@@ -10,6 +10,11 @@ http.favicon.hash:892542951
 ```
 "html: Zabbix" "html:(SAML)"
 ```
+<!--
+```
+"html: Zabbix" "html:guest"
+```
+-->
 - Usage
 ```
 python3 zabbix_session_exp.py -t https:target.com -u Admin
