@@ -42,7 +42,7 @@ Zabbix server is affected by an Authentication Bypass vulnerability, located in 
 Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite is affected by a Remote Code Execution vulnerability. The root cause of this vulnerability is a special case treated by doUploadFile method which allows uploading a file using UUE encoding. The attacker can upload a malicious Perl web shell in order to achieve access to the server.
 - [Oracle E-Business Suite - Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2022/Oracle_EBS)
 
-### Confluence Server and Data Center RCE. CVE-2022-26134. CVSSv3 Score 9.8.
+### Confluence Server and Data Center Unauthenticated RCE. CVE-2022-26134. CVSSv3 Score 9.8.
 #### Vulnerability description.
 In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are from 1.3.0 before 7.4.17, from 7.13.0 before 7.13.7, from 7.14.0 before 7.14.3, from 7.15.0 before 7.15.2, from 7.16.0 before 7.16.4, from 7.17.0 before 7.17.4, and from 7.18.0 before 7.18.1.
 - [Confluence Server and Data Center RCE Exploit](https://github.com/getdrive/PoC/tree/main/2022/Confluence)
