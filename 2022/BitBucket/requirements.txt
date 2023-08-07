@@ -1,3 +1,0 @@
-colorama==0.4.4
-requests==2.25.1
-rich==12.5.1
