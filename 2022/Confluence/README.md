@@ -26,7 +26,7 @@ python3 exploit2.py -u http://xxxxx.com -c id
 ```
 Exploit multi-targets
 ```
-python3 exploit2.py -f urls.txt -p -c id
+python3 exploit2.py -f urls.txt -c id
 ```
 <!--
 ```
