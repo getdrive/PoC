@@ -2,8 +2,9 @@
 Sophos Web Appliance RCE
 - Shodan dork: <br/>
 ```
-title:"Sophos Web Appliance" <br/>
-```  
+title:"Sophos Web Appliance"
+```
+
 ### Usage
 ```
 chmod +x scanner.sh
