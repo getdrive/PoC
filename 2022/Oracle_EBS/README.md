@@ -4,6 +4,9 @@ Oracle E-Business Suite - Remote Code Execution
 ```
 Oracle EBS
 ```
+```
+AppsLocalLogin.jsp
+```
 - Install
 ```
 wget https://raw.githubusercontent.com/getdrive/PoC/main/2022/Oracle_EBS/oracle_ebs_rce_cve_2022_21587.rb 
