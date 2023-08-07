@@ -2,7 +2,7 @@
 Zabbix - SAML SSO Authentication Bypass
 - Shodan dorks:
 ```
-title:zabbix
+title:Zabbix html:(SAML)
 ```
 ```
 http.favicon.hash:892542951
