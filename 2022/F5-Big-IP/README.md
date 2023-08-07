@@ -5,7 +5,7 @@ F5-BIG-IP RCE
 http.title:"BIG-IP&reg;-Redirect" +"Server"
 ```
 Download the shodan json file and extract all IP addresses from it. You can do this with [shodan-parser](https://github.com/getdrive/POC/blob/main/2023/Ivanti%20Endpoint%20Manager%20Mobile%20(EPMM)/shodan-parser.py) or any other tool.
-Save them to the list_ip file.
+Save them to the **_list_ip_** file.
 
 Usage
 ---
