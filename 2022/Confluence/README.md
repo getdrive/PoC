@@ -50,8 +50,6 @@ Exploit multi-targets
 ```
 python3 exploit2.py -f urls.txt -c id
 ```
-<!--
-```
- python3 exploit.py https://target.com CMD
-```
+<!-- Here is an Easter Egg for inquiring minds
+shodan-favicon-hashes - https://mega.nz/file/ctdH3LAB#lnE0GUkfCacwA18wR1VQI6TxIJ4OKM_6YKQdpHY4GN0
 -->
