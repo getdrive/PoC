@@ -1,6 +1,9 @@
 ## CVE-2022-21587
 Oracle E-Business Suite - Remote Code Execution
-
+- Shodan dork:
+```
+Oracle EBS
+```
 - Install
 ```
 wget https://raw.githubusercontent.com/getdrive/PoC/main/2022/Oracle_EBS/oracle_ebs_rce_cve_2022_21587.rb 
