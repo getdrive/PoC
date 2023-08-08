@@ -28,7 +28,7 @@ vBulletin before 5.6.9 PL1 allows an unauthenticated remote attacker to execute 
 
 ### Barracuda ESG Command Injection. CVE-2023-2868. CVSSv3 Score 9.8.
 #### Vulnerability description.
-CVE-2023-2868 is a remote command injection vulnerability present in the Barracuda Email Security Gateway (appliance form factor only) versions 5.1.3.001-9.2.0.006 that exists when screening email attachments. The command injection vulnerability exists in the parsing logic for the processing of TAR files. The following code within the product is the focal point of the vulnerability:
+A remote command injection vulnerability exists in the Barracuda Email Security Gateway (appliance form factor only) product effecting versions 5.1.3.001-9.2.0.006. The vulnerability arises out of a failure to comprehensively sanitize the processing of .tar file (tape archives). The vulnerability stems from incomplete input validation of a user-supplied .tar file as it pertains to the names of the files contained within the archive. As a consequence, a remote attacker can specifically format these file names in a particular manner that will result in remotely executing a system command through Perl's qx operator with the privileges of the Email Security Gateway product. This issue was fixed as part of BNSF-36456 patch. This patch was automatically applied to all customer appliances.The command injection vulnerability exists in the parsing logic for the processing of TAR files. The following code within the product is the focal point of the vulnerability:
 `qx{$tarexec -O -xf $tempdir/parts/$part '$f'};`
 - [Barracuda ESG Command Injection Exploit](https://github.com/getdrive/PoC/tree/main/2023/Barracuda%20ESG)
 
