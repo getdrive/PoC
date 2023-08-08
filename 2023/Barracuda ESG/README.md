@@ -13,6 +13,7 @@ http.waf:"Barracuda (Barracuda Networks)"
 html:app_common::nonetwork.title
 ```
 - Usage
+
 Set LHOST and RHOST variables to your listener.
 
 ```
