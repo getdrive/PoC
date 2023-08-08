@@ -32,6 +32,11 @@ A remote command injection vulnerability exists in the Barracuda Email Security 
 `qx{$tarexec -O -xf $tempdir/parts/$part '$f'};`
 - [Barracuda ESG Command Injection Exploit](https://github.com/getdrive/PoC/tree/main/2023/Barracuda%20ESG)
 
+### Citrix ADC Gateway - Unauthenticated Remote Code Execution. CVE-2023-3519. CVSSv3 Score 9.8.
+
+- [Citrix ADC Gateway - Unauthenticated Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519)
+
+
 
 ## 2022
 ### F5-BIG-IP Remote Code Execution. CVE-2022-1388. CVSSv3 Score 9.8.
