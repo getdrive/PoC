@@ -4,7 +4,7 @@ Barracuda ESG Command Injection
 
 - Shodan dorks:
 ```
-"Barracuda"
+http.waf:"Barracuda (Barracuda Networks)"
 ```
 ```
 html:app_common::nonetwork.title
