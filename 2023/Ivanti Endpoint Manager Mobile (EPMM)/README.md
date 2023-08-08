@@ -44,3 +44,5 @@ python exploit.py -u http://
 ```
 python exploit.py -f urls.txt
 ```
+<!-- Here is an Easter Egg for inquiring minds ;-)
+ CVE-2023-35082: Just change "aad" to "asfV3" and the exploit works.-->
