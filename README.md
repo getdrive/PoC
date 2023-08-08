@@ -26,6 +26,13 @@ Improper Authentication vulnerability in WPDeveloper Essential Addons for Elemen
 vBulletin before 5.6.9 PL1 allows an unauthenticated remote attacker to execute arbitrary code via a crafted HTTP request that triggers deserialization. This occurs because verify_serialized checks that a value is serialized by calling unserialize and then checking for errors. 
 - [vBulletin Pre-authentication RCE Exploit](https://github.com/getdrive/POC/tree/main/2023/vbulletin)
 
+### Barracuda ESG Command Injection. CVE-2023-2868. CVSSv3 Score 9.8.
+#### Vulnerability description.
+CVE-2023-2868 is a remote command injection vulnerability present in the Barracuda Email Security Gateway (appliance form factor only) versions 5.1.3.001-9.2.0.006 that exists when screening email attachments. The command injection vulnerability exists in the parsing logic for the processing of TAR files. The following code within the product is the focal point of the vulnerability:
+`qx{$tarexec -O -xf $tempdir/parts/$part '$f'};`
+- [Barracuda ESG Command Injection Exploit](https://github.com/getdrive/PoC/tree/main/2023/Barracuda%20ESG)
+
+
 ## 2022
 ### F5-BIG-IP Remote Code Execution. CVE-2022-1388. CVSSv3 Score 9.8.
 #### Vulnerability description.
