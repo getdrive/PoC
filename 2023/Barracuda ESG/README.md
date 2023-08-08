@@ -8,12 +8,11 @@ http.headers.server:"BarracudaHTTP"
 
 
 - Shodan dorks:
-
+```
+product:"Barracuda Networks Spam Firewall smtpd"
+```
 ```
 Barracuda-Spam-Firewall
-```
-```
-Barracuda port:25
 ```
 ```
 http.waf:"Barracuda (Barracuda Networks)"
