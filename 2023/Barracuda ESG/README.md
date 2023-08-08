@@ -8,6 +8,10 @@ http.headers.server:"BarracudaHTTP"
 
 
 - Shodan dorks:
+
+```
+Barracuda-Spam-Firewall
+```
 ```
 Barracuda port:25
 ```
