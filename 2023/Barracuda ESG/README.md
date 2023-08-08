@@ -9,13 +9,13 @@ http.headers.server:"BarracudaHTTP"
 
 - Shodan dorks:
 ```
+Barracuda port:25
+```
+```
 http.waf:"Barracuda (Barracuda Networks)"
 ```
 ```
 html:app_common::nonetwork.title
-```
-```
-html:app_common::nonetwork.message
 ```
 ```
 http.favicon.hash:1436966696
