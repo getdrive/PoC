@@ -12,9 +12,6 @@ http.headers.server:"BarracudaHTTP"
 product:"Barracuda Networks Spam Firewall smtpd"
 ```
 ```
-Barracuda-Spam-Firewall
-```
-```
 http.waf:"Barracuda (Barracuda Networks)"
 ```
 ```
