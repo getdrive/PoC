@@ -36,6 +36,11 @@ A remote command injection vulnerability exists in the Barracuda Email Security 
 
 - [Citrix ADC Gateway - Unauthenticated Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519)
 
+### Chamilo Unauthenticated Command Injection. CVE-2023-34960. CVSSv3 Score 9.8.
+#### Vulnerability description.
+A command injection vulnerability in the wsConvertPpt component of Chamilo v1.11.* up to v1.11.18 allows attackers to execute arbitrary commands via a SOAP API call with a crafted PowerPoint name.
+- [Chamilo Unauthenticated Command Injection Exploit](https://github.com/getdrive/PoC/tree/main/2023/Chamilo%20CVE-2023-34960)
+
 
 
 ## 2022
