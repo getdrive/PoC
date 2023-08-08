@@ -1,6 +1,11 @@
 # CVE-2023-2868
 Barracuda ESG Command Injection 
-- [Netlas Search Link](https://app.netlas.io/responses/?q=http.headers.server:"BarracudaHTTP")
+- NetLas Dork:
+```
+http.headers.server:"BarracudaHTTP"
+```
+[Search Link](https://app.netlas.io/responses/?q=http.headers.server:"BarracudaHTTP")
+
 
 - Shodan dorks:
 ```
