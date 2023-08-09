@@ -51,6 +51,11 @@ An issue in WooCommerce Payments plugin for WordPress (versions 5.6.1 and lower)
 Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to execute some OS commands remotely by sending crafted packets to an affected device.
 - [Zyxel ZyWALL/USG Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2023/Zyxel_ZyWALL_USG_RCE)
 
+### CloudPanel Shell Upload. CVE-2023-35885. CVSSv3 Score 9.8. 
+#### Vulnerability description.
+CloudPanel 2 before 2.3.1 has insecure file-manager cookie authentication. PoC for CVE-2023-35885 could potentially allow an attacker to upload a webshell into the server.
+- [CloudPanel Web-Shell Upload Exploit](https://github.com/getdrive/PoC/tree/main/2023/CloudPanel_CVE-2023-35885)
+
 
 ## 2022
 ### F5-BIG-IP Remote Code Execution. CVE-2022-1388. CVSSv3 Score 9.8.
