@@ -46,7 +46,10 @@ A command injection vulnerability in the wsConvertPpt component of Chamilo v1.11
 An issue in WooCommerce Payments plugin for WordPress (versions 5.6.1 and lower) allows an unauthenticated attacker to send requests on behalf of an elevated user, like administrator. This allows a remote, unauthenticated attacker to gain admin access on a site that has the affected version of the plugin activated.
 - [Wordpress WooCommerce plugin Unauthorized Admin Access Exploit](https://github.com/getdrive/PoC/tree/main/2023/WooCommerce_plugin_Unauthorized_Admin_Access)
 
-
+### Zyxel ZyWALL/USG Remote Code Execution. CVE-2023-28771. CVSSv3 Score 9.8.
+#### Vulnerability description.
+Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to execute some OS commands remotely by sending crafted packets to an affected device.
+- [Zyxel ZyWALL/USG Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2023/Zyxel_ZyWALL_USG_RCE)
 
 
 ## 2022
