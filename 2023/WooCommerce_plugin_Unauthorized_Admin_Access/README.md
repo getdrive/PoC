@@ -5,7 +5,7 @@ Wordpress WooCommerce plugin Unauthorized Admin Access
 ```
 inurl:/wp-content/plugins/woocommerce-payments/
 ```
-- Hunter dork:
+- [Hunter](https://hunter.how) dork:
 ```
 web.body="/wp-content/plugins/woocommerce-payments/"
 ```
