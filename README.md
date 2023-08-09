@@ -56,6 +56,12 @@ Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.6
 CloudPanel 2 before 2.3.1 has insecure file-manager cookie authentication. PoC for CVE-2023-35885 could potentially allow an attacker to upload a webshell into the server.
 - [CloudPanel Web-Shell Upload Exploit](https://github.com/getdrive/PoC/tree/main/2023/CloudPanel_CVE-2023-35885)
 
+### Adobe ColdFusion Unauthenticated Remote Code Execution. CVE-2023-26360. CVSSv3 Score 9.8.
+#### Vulnerability description.
+Adobe ColdFusion versions 2018 Update 15 (and earlier) and 2021 Update 5 (and earlier) are affected by an Improper Access Control vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue does not require user interaction.
+- [Adobe ColdFusion Unauthenticated Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2023/Adobe_Cold_Fusion_CVE-2023-26360)
+
+
 
 ## 2022
 ### F5-BIG-IP Remote Code Execution. CVE-2022-1388. CVSSv3 Score 9.8.
