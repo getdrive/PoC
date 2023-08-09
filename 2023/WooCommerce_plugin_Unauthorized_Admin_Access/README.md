@@ -12,7 +12,7 @@ web.body="/wp-content/plugins/woocommerce-payments/"
 
 ### Usage
 ```
-# Edit the Usarname, Password and Email to your own in the exploit.
+# Edit the Username, Password and Email to your own in the exploit.
 
 # Run:
 python3 exploit.py http://target.com
