@@ -61,7 +61,10 @@ CloudPanel 2 before 2.3.1 has insecure file-manager cookie authentication. PoC f
 Adobe ColdFusion versions 2018 Update 15 (and earlier) and 2021 Update 5 (and earlier) are affected by an Improper Access Control vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue does not require user interaction.
 - [Adobe ColdFusion Unauthenticated Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2023/Adobe_Cold_Fusion_CVE-2023-26360)
 
-
+### Metabase Remote Code Execution. CVE-2023-38646. CVSSv3 Score 9.8.
+#### Vulnerability description.
+Metabase versions before 0.46.6.1 contain a flaw where the secret setup-token is accessible even after the setup process has been completed. With this token a user is able to submit the setup functionality to create a new database. When creating a new database, an H2 database string is created with a TRIGGER that allows for code execution.
+- [Metabase Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2023/Metabase)
 
 ## 2022
 ### F5-BIG-IP Remote Code Execution. CVE-2022-1388. CVSSv3 Score 9.8.
