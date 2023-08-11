@@ -1,4 +1,8 @@
 # CVE-2023-35078
+![](https://img.shields.io/static/v1?label=Product&message=MobileIron&color=blue)
+![](https://img.shields.io/static/v1?label=Version&message=Ivanti%20Endpoint%20Manager%20Mobile%20through%2011.10&color=brighgreen)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%2010.0.%20Authentication%20Bypass&color=red)
+
 Ivanti Endpoint Manager Mobile exploit <br/>
 
 - Shodan dorks: <br/>
