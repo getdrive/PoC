@@ -1,6 +1,10 @@
 ## CVE-2019-17662
-ThinVNC - Arbitrary File Read.
-- Shodan dork: <br/>
+![](https://img.shields.io/static/v1?label=Product&message=ThinVNC&color=blue)
+![](https://img.shields.io/static/v1?label=Version&message=1.0b1&color=brighgreen)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Arbitrary%20File%20Read&color=red)
+
+
+- Shodan dork:
 ```
 "ThinVNC"
 ```
