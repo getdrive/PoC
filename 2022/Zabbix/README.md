@@ -1,5 +1,9 @@
 # CVE-2022-23131
-Zabbix - SAML SSO Authentication Bypass
+![](https://img.shields.io/static/v1?label=Product&message=Zabbix&color=blue)
+![](https://img.shields.io/static/v1?label=Version&message=5.4.0–5.4.8;%206.0.0alpha1&color=brighgreen)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20SAML%20SSO%20Authentication%20Bypass&color=red)
+
+
 - Shodan dorks:
 ```
 title:Zabbix html:(SAML)
