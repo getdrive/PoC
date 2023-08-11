@@ -1,5 +1,9 @@
 # CVE-2022-1388
-F5-BIG-IP RCE
+![](https://img.shields.io/static/v1?label=Product&message=F5%20Big%20IP&color=blue)
+![](https://img.shields.io/static/v1?label=Version&message=all%2012.1.x%20and%2011.6.x%2016.1.x,%20prior%20to%2016.1.2.2,%2015.1.x,%20prior%20to%2015.1.5.1&color=brighgreen)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Remote%20Code%20Execution&color=red)
+
+
 - Shodan dork:
 ```
 http.title:"BIG-IP&reg;-Redirect" +"Server"
