@@ -1,5 +1,9 @@
 # CVE-2022-26134
-Confluence Server and Data Center RCE
+![](https://img.shields.io/static/v1?label=Product&message=Confluence%20Server&color=blue)
+![](https://img.shields.io/static/v1?label=Version&message=%20from%201.3.0%20before%207.4.17,%20from%207.13.0%20before%207.13.7,%20from%207.14.0%20before%207.14.3&color=brighgreen)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Remote%20Code%20Execution&color=red)
+
+
 - Shodan dork
 ```
 http.favicon.hash:-305179312
