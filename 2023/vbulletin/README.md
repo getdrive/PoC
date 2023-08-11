@@ -1,6 +1,8 @@
 # CVE-2023-25135
+![](https://img.shields.io/static/v1?label=Product&message=vBulletin&color=blue)
+![](https://img.shields.io/static/v1?label=Version&message=before%205.6.9%20PL1&color=brighgreen)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Pre-authentication%20Remote%20Code%20Execution&color=red)
 
-vBulletin Pre-authentication RCE
 
 See: https://www.ambionics.io/blog/vbulletin-unserializable-but-unreachable
 
