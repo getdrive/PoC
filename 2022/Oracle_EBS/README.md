@@ -1,5 +1,9 @@
 ## CVE-2022-21587
-Oracle E-Business Suite - Remote Code Execution
+![](https://img.shields.io/static/v1?label=Product&message=Oracle%20E-Business%20Suite&color=blue)
+![](https://img.shields.io/static/v1?label=Version&message=12.2.3-12.2.11&color=brighgreen)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Remote%20Code%20Execution&color=red)
+
+
 - Shodan dork:
 ```
 Oracle EBS
