@@ -1,5 +1,9 @@
 # CVE-2023-28771
-Zyxel ZyWALL/USG Remote Code Execution.
+![](https://img.shields.io/static/v1?label=Product&message=Zyxel&color=blue)
+![](https://img.shields.io/static/v1?label=Version&message=ZyWALL/USG%20series%20firmware%20versions%204.60%20through%204.73&color=brighgreen)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Remote%20Code%20Execution&color=red)
+
+
 
 - Shodan dork:
 ```
