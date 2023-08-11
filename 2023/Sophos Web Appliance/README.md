@@ -1,6 +1,10 @@
 ## CVE-2023-1671
-Sophos Web Appliance RCE
-- Shodan dork: <br/>
+![](https://img.shields.io/static/v1?label=Product&message=Sophos%20Web%20Appliance&color=blue)
+![](https://img.shields.io/static/v1?label=Version&message=older%20than%20version%204.3.10.4&color=brighgreen)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Pre-auth%20Command%20Injection&color=red)
+
+
+- Shodan dork:
 ```
 title:"Sophos Web Appliance"
 ```
