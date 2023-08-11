@@ -1,5 +1,9 @@
-# CVE-2023-32243.
-Essential Addons for Elementor 5.4.0-5.7.1 - Unauthenticated Privilege Escalation
+# CVE-2023-32243
+![](https://img.shields.io/static/v1?label=Product&message=Essential%20Addons%20for%20Elementor&color=blue)
+![](https://img.shields.io/static/v1?label=Version&message=5.4.0-5.7.1&color=brighgreen)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Unauthenticated%20Privilege%20Escalation&color=red)
+
+
 
 ### Info
 The plugin does not validate the password reset key, which could allow unauthenticated attackers to reset arbitrary account's password to anything they want, by knowing the related email or username, gaining access to them.
