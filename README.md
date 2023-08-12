@@ -1,3 +1,5 @@
+![](https://img.shields.io/static/v1?label=Exploits&message=Proof%20of%20Concept&color=blue)
+![](https://img.shields.io/static/v1?label=Threat%20Level&message=Critical&color=red)
 # PoC. Severity critical.
 ## 2023
 ### Ivanti Endpoint Manager Mobile (EPMM) - Unauthenticated API Access. CVE-2023-35078. CVSSv3 Score 10.
