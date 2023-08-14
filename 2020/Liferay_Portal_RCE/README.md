@@ -4,6 +4,7 @@
 ![](https://img.shields.io/static/v1?label=Version&message=prior%20to%207.2.1%20CE%20GA2&color=brighgreen)
 ![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Remote%20Code%20Execution&color=red)
 
+See more details [here](https://www.synacktiv.com/publications/how-to-exploit-liferay-cve-2020-7961-quick-journey-to-poc)
  - Google dork:
 ```
 inurl:/api/jsonws
