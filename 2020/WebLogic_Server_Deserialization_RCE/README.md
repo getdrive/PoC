@@ -1,6 +1,6 @@
 # CVE-2020-2555
 
-![](https://img.shields.io/static/v1?label=Product&message=Oracle WebLogicServer%20ADC&color=blue)
+![](https://img.shields.io/static/v1?label=Product&message=Oracle%20WebLogicServer&color=blue)
 ![](https://img.shields.io/static/v1?label=Version&message=3.7.1.0,%2012.1.3.0.0,%2012.2.1.3.0%20and%2012.2.1.4.0&color=brighgreen)
 ![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Remote%20Code%20Execution&color=red)
 
