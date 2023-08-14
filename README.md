@@ -95,3 +95,9 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 #### Vulnerability description.
 ThinVNC 1.0b1 is vulnerable to arbitrary file read, which leads to a compromise of the VNC server. The vulnerability exists even when authentication is turned on during the deployment of the VNC server. The password for authentication is stored in cleartext in a file that can be read via a ../../ThinVnc.ini directory traversal attack vector.
 - [ThinVNC - Arbitrary File Read Exploit](https://github.com/getdrive/POC/tree/main/2019/ThinVNC)
+
+## 2019
+### Kibana - Remote Code Execution. CVE-2019-7609. CVSSv3 Score 10.0.
+#### Vulnerability description.
+Kibana versions before 5.6.15 and 6.6.1 contain an arbitrary code execution flaw in the Timelion visualizer. An attacker with access to the Timelion application could send a request that will attempt to execute javascript code. This could possibly lead to an attacker executing arbitrary commands with permissions of the Kibana process on the host system.
+- [Kibana RCE Exploit](https://github.com/getdrive/PoC/tree/main/2019/Kibana_RCE) 
