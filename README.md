@@ -89,6 +89,11 @@ Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite is
 In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are from 1.3.0 before 7.4.17, from 7.13.0 before 7.13.7, from 7.14.0 before 7.14.3, from 7.15.0 before 7.15.2, from 7.16.0 before 7.16.4, from 7.17.0 before 7.17.4, and from 7.18.0 before 7.18.1.
 - [Confluence Server and Data Center RCE Exploit](https://github.com/getdrive/PoC/tree/main/2022/Confluence)
 
+## 2020
+### Liferay Portal - Remote Code Execution. CVE-2020-7961. CVSSv3 Score 9.8.
+#### Vulnerability description.
+Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows remote attackers to execute arbitrary code via JSON web services (JSONWS).
+- [Liferay Portal - Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2020/Liferay_Portal_RCE)
 
 ## 2019
 ### ThinVNC - Arbitrary File Read. CVE-2019-17662. CVSSv3 Score 9.8.
@@ -96,7 +101,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 ThinVNC 1.0b1 is vulnerable to arbitrary file read, which leads to a compromise of the VNC server. The vulnerability exists even when authentication is turned on during the deployment of the VNC server. The password for authentication is stored in cleartext in a file that can be read via a ../../ThinVnc.ini directory traversal attack vector.
 - [ThinVNC - Arbitrary File Read Exploit](https://github.com/getdrive/POC/tree/main/2019/ThinVNC)
 
-## 2019
 ### Kibana - Remote Code Execution. CVE-2019-7609. CVSSv3 Score 10.0.
 #### Vulnerability description.
 Kibana versions before 5.6.15 and 6.6.1 contain an arbitrary code execution flaw in the Timelion visualizer. An attacker with access to the Timelion application could send a request that will attempt to execute javascript code. This could possibly lead to an attacker executing arbitrary commands with permissions of the Kibana process on the host system.
