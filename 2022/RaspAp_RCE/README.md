@@ -13,7 +13,7 @@
 wget https://github.com/getdrive/PoC/blob/main/2022/RaspAp_RCE/raspap_rce.rb
 ```
 ```
-cp  raspap_rce.rb /usr/share/metasploit-framework/modules/exploit/unix/http/
+cp  raspap_rce.rb /usr/share/metasploit-framework/modules/exploits/unix/http/
 ```
 ### Usage
 ```
