@@ -69,6 +69,12 @@ Metabase versions before 0.46.6.1 contain a flaw where the secret setup-token is
 - [Metabase Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2023/Metabase)
 
 ## 2022
+### RaspAP Unauthenticated Command Injection. CVE-2022-39986. CVSSv3 Score 9.8.
+#### Vulnerability description.
+RaspAP is feature-rich wireless router software that just works on many popular Debian-based devices, including the Raspberry Pi. A Command Injection vulnerability in RaspAP versions 2.8.0 thru 2.8.7 allows unauthenticated attackers to execute arbitrary commands in the context of the user running RaspAP via the cfg_id parameter in /ajax/openvpn/activate_ovpncfg.php and /ajax/openvpn/del_ovpncfg.php. Successfully tested against RaspAP 2.8.0 and 2.8.7.
+- [RaspAP Unauthenticated Command Injection Exploit](https://github.com/getdrive/PoC/tree/main/2022/RaspAp_RCE)
+
+
 ### F5-BIG-IP Remote Code Execution. CVE-2022-1388. CVSSv3 Score 9.8.
 #### Vulnerability description.
 This vulnerability may allow an unauthenticated attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands, create or delete files, or disable services.
