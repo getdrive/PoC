@@ -1,4 +1,4 @@
-# 2022-39986
+# CVE-2022-39986
 ![](https://img.shields.io/static/v1?label=Product&message=RaspAP&color=blue)
 ![](https://img.shields.io/static/v1?label=Version&message=2.8.0%20thru%202.8.7&color=brighgreen)
 ![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Unauthenticated%20Command%20Injection&color=red)
