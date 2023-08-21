@@ -7,7 +7,16 @@
 ```
 "RaspAP"
 ```
-
+```
+Raspbian WIFI
+```
+```
+http.favicon.hash:316853479
+```
+- Fofa dork:
+```
+icon_hash="316853479"
+```
 ### Install
 ```
 wget https://raw.githubusercontent.com/getdrive/PoC/main/2022/RaspAp_RCE/raspap_rce.rb
