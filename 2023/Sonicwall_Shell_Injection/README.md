@@ -15,7 +15,7 @@ wget https://raw.githubusercontent.com/getdrive/PoC/main/2023/Sonicwall_Shell_In
 ```
 cp sonicwall_shell_injection_cve_2023_34124.rb /usr/share/metasploit-framework/modules/exploits/multi/http/
 ```
-### Usage
+### Metasploit-framework usage
 ```
 msfdb reinit; msfconsole -q
 ```
