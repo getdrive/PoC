@@ -2,7 +2,13 @@
 ![](https://img.shields.io/static/v1?label=Threat%20Level&message=%20%20%20Critical%20%20%20&color=red)
 # PoC. Severity critical.
 ## 2023
-### Ivanti Endpoint Manager Mobile (EPMM) - Unauthenticated API Access. CVE-2023-35078. CVSSv3 Score 10.
+
+### SonicWall - Authentication Bypass. CVE-2023-34124. CVSSv3 Score 9.8.
+#### Vulnerability description.
+The authentication mechanism in SonicWall GMS and Analytics Web Services had insufficient checks, allowing authentication bypass. This issue affects GMS: 9.3.2-SP1 and earlier versions; Analytics: 2.5.0.4-R7 and earlier versions.
+- [SonicWall - Authentication Bypass Exploit](https://github.com/getdrive/PoC/tree/main/2023/Sonicwall_Shell_Injection)
+
+### Ivanti Endpoint Manager Mobile (EPMM) - Unauthenticated API Access. CVE-2023-35078. CVSSv3 Score 10.0.
 #### Vulnerability description.
 Ivanti MobileIron is vulnerable to CVE-2023-35078, a vulnerability that allows unauthenticated access to specific API paths. The root cause of this vulnerability is improper authentication validation. This vulnerability allows an unauthenticated remote attacker to access personally identifiable information (PII) such as names, phone numbers, and other mobile device details for users on a vulnerable system. An attacker can also make other configuration changes, including creating an EPMM administrative account that can make further changes to a vulnerable system.
 - [Ivanti Endpoint Manager Mobile (EPMM) Exploit](https://github.com/getdrive/POC/tree/main/2023/Ivanti%20Endpoint%20Manager%20Mobile%20(EPMM))
