@@ -7,7 +7,14 @@
 - Shodan dork:
 ```
 http.favicon.hash:631108382
-```	
+```
+```
+http.html:"/sgms/css/martini.css"
+```
+- FOFA dork:
+```
+body="/sgms/css/martini.css"
+```
 ### Install
 ```
 wget https://raw.githubusercontent.com/getdrive/PoC/main/2023/Sonicwall_Shell_Injection/sonicwall_shell_injection_cve_2023_34124.rb
