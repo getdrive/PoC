@@ -3,6 +3,11 @@
 # PoC. Severity critical.
 ## 2023
 
+### FileMage Gateway - Directory Traversal. CVE-2023-39026.
+#### Vulnerability description.
+Directory Traversal vulnerability in FileMage Gateway Windows Deployments v.1.10.8 and before allows a remote attacker to obtain sensitive information via a crafted request to the /mgmt/ component.
+- [FileMage Gateway - Directory Traversal Exploit](https://github.com/getdrive/PoC/tree/main/2023/FileMage_Gateway_LFI)
+
 ### SonicWall - Authentication Bypass. CVE-2023-34124. CVSSv3 Score 9.8.
 #### Vulnerability description.
 The authentication mechanism in SonicWall GMS and Analytics Web Services had insufficient checks, allowing authentication bypass. This issue affects GMS: 9.3.2-SP1 and earlier versions; Analytics: 2.5.0.4-R7 and earlier versions.
