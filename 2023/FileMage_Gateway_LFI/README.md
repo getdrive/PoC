@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/static/v1?label=Product&message=FileMage%20Gateway&color=blue)
 ![](https://img.shields.io/static/v1?label=Version&message=v.1.10.8%20and%20before&color=brighgreen)
-![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%20%20Directory%20Traversal&color=red)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=%20Directory%20Traversal&color=red)
 
 For the full writeup, click [here](https://raindayzz.com/technicalblog/2023/08/20/FileMage-Vulnerability.html).
 
