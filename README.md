@@ -3,7 +3,7 @@
 # PoC. Severity critical.
 ## 2023
 
-### FileMage Gateway - Directory Traversal. CVE-2023-39026.
+### FileMage Gateway - Unauthenticated Directory Traversal. CVE-2023-39026.
 #### Vulnerability description.
 Directory Traversal vulnerability in FileMage Gateway Windows Deployments v.1.10.8 and before allows a remote attacker to obtain sensitive information via a crafted request to the /mgmt/ component.
 - [FileMage Gateway - Directory Traversal Exploit](https://github.com/getdrive/PoC/tree/main/2023/FileMage_Gateway_LFI)
