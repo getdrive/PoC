@@ -3,7 +3,7 @@
 ![](https://img.shields.io/static/v1?label=Version&message=Forminator%20<=%201.24&color=brighgreen)
 ![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Unauthenticated%20Remote%20Command%20Execution&color=red)
 
-[NucleiTamplate](https://github.com/projectdiscovery/nuclei-templates/pull/8118/files)
+[Nuclei Template](https://github.com/projectdiscovery/nuclei-templates/pull/8118/files)
 
 - Shodan dork:
 ```
