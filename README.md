@@ -3,6 +3,11 @@
 # PoC. Severity critical.
 ## 2023
 
+### Wordpress plugin Forminator RCE
+#### Vulnerability description. CVE-2023-4596. CVSSv3 Score 9.8.
+The Forminator plugin for WordPress is vulnerable to arbitrary file uploads due to file type validation occurring after a file has been uploaded to the server in the upload_post_image() function in versions up to, and including, 1.24.6. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+- [Wordpress plugin Forminator RCE Exploit](https://github.com/getdrive/PoC/tree/main/2023/WordPress_plugin_Forminator_RCE)
+
 ### OpenTSDB - Remote Code Execution. CVE-2023-25826. CVSSv3 Score 9.8.
 #### Vulnerability description.
 Due to insufficient validation of parameters passed to the legacy HTTP query API, it is possible to inject crafted OS commands into multiple parameters and execute malicious code on the OpenTSDB host system. This exploit exists due to an incomplete fix that was made when this vulnerability was previously disclosed as CVE-2020-35476. Regex validation that was implemented to restrict allowed input to the query API does not work as intended, allowing crafted commands to bypass validation.
