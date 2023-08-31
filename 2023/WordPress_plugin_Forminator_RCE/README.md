@@ -5,6 +5,10 @@
 
 [Nuclei Template](https://github.com/projectdiscovery/nuclei-templates/pull/8118/files)
 
+```
+nuclei -target <target> -t CVE-2023-4596.yaml
+```
+
 - Shodan dork:
 ```
 http.html:"/wp-content/plugins/forminator"
