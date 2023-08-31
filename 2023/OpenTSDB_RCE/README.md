@@ -1,6 +1,6 @@
 # CVE-2023-25826
 ![](https://img.shields.io/static/v1?label=Product&message=OpenTSDB&color=blue)
-![](https://img.shields.io/static/v1?label=Version&message=All%20Current%20Versions&color=brighgreen)
+![](https://img.shields.io/static/v1?label=Version&message=All%20Current%20Versions%20<=%202.4.1&color=brighgreen)
 ![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Remote%20Code%20Execution&color=red)
 
 
