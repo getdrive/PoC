@@ -3,6 +3,11 @@
 # PoC. Severity critical.
 ## 2023
 
+### OpenTSDB - Remote Code Execution. CVE-2023-25826. CVSSv3 Score 9.8.
+#### Vulnerability description.
+Due to insufficient validation of parameters passed to the legacy HTTP query API, it is possible to inject crafted OS commands into multiple parameters and execute malicious code on the OpenTSDB host system. This exploit exists due to an incomplete fix that was made when this vulnerability was previously disclosed as CVE-2020-35476. Regex validation that was implemented to restrict allowed input to the query API does not work as intended, allowing crafted commands to bypass validation.
+- [OpenTSDB - Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2023/OpenTSDB_RCE)
+
 ### FileMage Gateway - Unauthenticated Directory Traversal. CVE-2023-39026.
 #### Vulnerability description.
 Directory Traversal vulnerability in FileMage Gateway Windows Deployments v.1.10.8 and before allows a remote attacker to obtain sensitive information via a crafted request to the /mgmt/ component.
