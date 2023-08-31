@@ -3,8 +3,8 @@
 # PoC. Severity critical.
 ## 2023
 
-### Wordpress plugin Forminator RCE
-#### Vulnerability description. CVE-2023-4596. CVSSv3 Score 9.8.
+### Wordpress plugin Forminator RCE. CVE-2023-4596. CVSSv3 Score 9.8.
+#### Vulnerability description.
 The Forminator plugin for WordPress is vulnerable to arbitrary file uploads due to file type validation occurring after a file has been uploaded to the server in the upload_post_image() function in versions up to, and including, 1.24.6. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
 - [Wordpress plugin Forminator RCE Exploit](https://github.com/getdrive/PoC/tree/main/2023/WordPress_plugin_Forminator_RCE)
 
