@@ -10,7 +10,9 @@ More information see [here.](https://securityonline.info/cve-2023-4596-critical-
 ```
 nuclei -target <target> -t CVE-2023-4596.yaml
 ```
-
+```
+nuclei -target <target_file> -t CVE-2023-4596.yaml
+```
 - Shodan dork:
 ```
 http.html:"/wp-content/plugins/forminator"
