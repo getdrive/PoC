@@ -1,7 +1,7 @@
 # CVE-2023-26469
 ![](https://img.shields.io/static/v1?label=Product&message=Leave%20Management%20System%20Jorani&color=blue)
 ![](https://img.shields.io/static/v1?label=Version&message=v1.0.0&color=brighgreen)
-![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Path%20Traversal%20&%20Remote%20Code%20Execution&color=red)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Path%20Traversal%20%26%20Remote%20Code%20Execution&color=red)
 
 
 - [Nuclei Template](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-26469.yaml)
