@@ -13,7 +13,7 @@ nuclei -target <target> -t CVE-2023-26469.yaml
 nuclei -l <target_file> -t CVE-2023-26469.yaml
 ```
 ```
-nuclei -uq "http.favicon.hash:-2032163853" -t CVE-2023-26469.yaml -vv
+nuclei -uq 'http.favicon.hash:-2032163853' -t CVE-2023-26469.yaml -vv
 ```
 
  - Shodan dork:
