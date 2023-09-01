@@ -4,7 +4,7 @@
 ![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Path%20Traversal%20&%20Remote%20Code%20Execution&color=red)
 
 
-[Nuclei Template](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-26469.yaml)
+- [Nuclei Template](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-26469.yaml)
 
 ```
 nuclei -target <target> -t CVE-2023-26469.yaml
