@@ -3,6 +3,11 @@
 # PoC. Severity critical.
 ## 2023
 
+### Aria Operations for Networks - SSH Auth Bypass. CVE-2023-34039. CVSSv3 Score 9.8.
+#### Vulnerability description.
+Aria Operations for Networks contains an Authentication Bypass vulnerability due to a lack of unique cryptographic key generation. A malicious actor with network access to Aria Operations for Networks could bypass SSH authentication to gain access to the Aria Operations for Networks CLI.
+- [Aria Operations for Networks - SSH Auth Bypass Exploit](https://github.com/getdrive/PoC/tree/main/2023/VMWare_Aria_Operations_4_Networks_CVE-2023-34039/CVE-2023-34039-main)
+
 ### Leave Management System Jorani - Path Traversal & Remote Code Execution. CVE-2023-26469. CVSSv3 Score 9.8.
 #### Vulnerability description.
 In Jorani 1.0.0, an attacker could leverage path traversal to access files and execute code on the server.
