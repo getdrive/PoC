@@ -3,6 +3,11 @@
 # PoC. Severity critical.
 ## 2023
 
+### SolarView Compact - Command Injection. CVE-2023-23333. CVSSv3 Score 9.8.
+#### Vulnerability description.
+There is a command injection vulnerability in SolarView Compact through 6.00, attackers can execute commands by bypassing internal restrictions through downloader.php.
+- [SolarView Compact - Command Injection Exploit](https://github.com/getdrive/PoC/tree/main/2023/SolarView_Compact)
+
 ### Aria Operations for Networks - SSH Auth Bypass. CVE-2023-34039. CVSSv3 Score 9.8.
 #### Vulnerability description.
 Aria Operations for Networks contains an Authentication Bypass vulnerability due to a lack of unique cryptographic key generation. A malicious actor with network access to Aria Operations for Networks could bypass SSH authentication to gain access to the Aria Operations for Networks CLI.
