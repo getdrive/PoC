@@ -105,6 +105,12 @@ Metabase versions before 0.46.6.1 contain a flaw where the secret setup-token is
 - [Metabase Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2023/Metabase)
 
 ## 2022
+
+### VMware vRealize Log Insight Unauthenticated Remote Code Execution. CVE-2022-31704, CVE-2022-31706, CVE-2022-31711. CVSSv3 Score 9.8.
+#### Vulnerability description.
+VMware vRealize Log Insights versions 8.x contain multiple vulnerabilities, such as directory traversal, broken access control, deserialization, and information disclosure. When chained together, these vulnerabilities allow a remote, unauthenticated attacker to execute arbitrary commands on the underlying operating system as the root user. This Metasploit module achieves code execution via triggering a RemotePakDownloadCommand command via the exposed thrift service after obtaining the node token by calling a GetConfigRequest thrift command. After the download, it will trigger a PakUpgradeCommand for processing the specially crafted PAK archive, which then will place the JSP payload under a certain API endpoint (pre-authenticated) location upon extraction for gaining remote code execution.
+- [VMware vRealize Log Insight Unauthenticated Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2022/VMware_vRealize_Log_Insight)
+
 ### RaspAP Unauthenticated Command Injection. CVE-2022-39986. CVSSv3 Score 9.8.
 #### Vulnerability description.
 RaspAP is feature-rich wireless router software that just works on many popular Debian-based devices, including the Raspberry Pi. A Command Injection vulnerability in RaspAP versions 2.8.0 thru 2.8.7 allows unauthenticated attackers to execute arbitrary commands in the context of the user running RaspAP via the cfg_id parameter in /ajax/openvpn/activate_ovpncfg.php and /ajax/openvpn/del_ovpncfg.php. Successfully tested against RaspAP 2.8.0 and 2.8.7.
