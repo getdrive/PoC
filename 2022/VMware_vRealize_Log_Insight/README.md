@@ -1,8 +1,4 @@
-# CVE-2022-31704
-# CVE-2022-31706
-# CVE-2022-31711
-
-
+# CVE-2022-31704, CVE-2022-31706, CVE-2022-31711
 ![](https://img.shields.io/static/v1?label=Product&message=VMWare%20vRealize%20Log%20Insight&color=blue)
 ![](https://img.shields.io/static/v1?label=Version&message=%3C8.10.2&color=brighgreen)
 ![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Remote%20Code%20Execution&color=red)
