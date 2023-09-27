@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/static/v1?label=Product&message=Juniper%20Web%20Device%20Manager&color=blue)
 ![](https://img.shields.io/static/v1?label=Version&message=All%20versions%20prior%20to%2021.4R3-S5&color=brighgreen)
-![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Remote%20Code%20Execution&color=red)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=Remote%20Code%20Execution&color=red)
 
 ## Description
 
