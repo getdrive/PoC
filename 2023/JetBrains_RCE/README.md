@@ -4,6 +4,11 @@
 ![](https://img.shields.io/static/v1?label=Version&message=All%20versions%20of%20TeamCity%20prior%20to%20version%202023.05.4&color=brighgreen)
 ![](https://img.shields.io/static/v1?label=Vulnerability&message=Remote%20Code%20Execution&color=red)
 
+## Shodan Dork:
+```
+TeamCity
+```
+
 ## Description
 
 In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible
