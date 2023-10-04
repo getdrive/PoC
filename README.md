@@ -3,6 +3,11 @@
 # PoC. Severity critical.
 ## 2023
 
+### JetBrains TeamCity Server - Remote Code Execution. CVE-2023-42793. CVSSv3 Score 9.8.
+#### Vulnerability description.
+In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible.
+- [JetBrains TeamCity Server - Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2023/JetBrains_RCE)
+
 ### SolarView Compact - Command Injection. CVE-2023-23333. CVSSv3 Score 9.8.
 #### Vulnerability description.
 There is a command injection vulnerability in SolarView Compact through 6.00, attackers can execute commands by bypassing internal restrictions through downloader.php.
