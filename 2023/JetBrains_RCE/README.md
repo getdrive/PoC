@@ -6,7 +6,7 @@
 
 ## Shodan Dork:
 ```
-TeamCity
+TeamCity-Node-Id: MAIN_SERVER
 ```
 
 ## Description
