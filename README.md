@@ -3,7 +3,7 @@
 # PoC. Severity critical.
 ## 2023
 
-### Progress Sofware WS_FTP Server - Unauthenticated Remote Code Execution. CVE-2023-40044. CVSSv3 Score 9.8.
+### Progress Sofware WS_FTP Server - Unauthenticated Remote Code Execution. CVE-2023-40044. CVSSv3 Score 10.
 #### Vulnerability description.
 In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer module to execute remote commands on the underlying WS_FTP Server operating system.
 - [Progress Sofware WS_FTP Server - Unauthenticated Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2023/Progress_Software_WS_FTP_RCE)
