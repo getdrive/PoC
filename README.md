@@ -3,6 +3,13 @@
 # PoC. Severity critical.
 ## 2023
 
+
+### Atlasian Confluence Server and Data Center -  Unauthorized Confluence Administrator Account Access. CVE-2023-22515. CVSSv3 Score 10.
+#### Vulnerability description.
+Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances.
+- [Atlasian Confluence Server and Data Center -  Unauthorized Administrator Access Exploit](https://github.com/getdrive/PoC/tree/main/2023/Confluence_Broken_Access)
+  
+Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
 ### Progress Sofware WS_FTP Server - Unauthenticated Remote Code Execution. CVE-2023-40044. CVSSv3 Score 10.
 #### Vulnerability description.
 In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer module to execute remote commands on the underlying WS_FTP Server operating system.
