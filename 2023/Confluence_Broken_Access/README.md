@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/static/v1?label=Product&message=Atlasian%20Confluence&color=blue)
 ![](https://img.shields.io/static/v1?label=Version&message=Confluence%20Data%20Center%20and%20Server&color=brighgreen)
-![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%209.8.%20Unauthorized%20Admin%20Access&color=red)
+![](https://img.shields.io/static/v1?label=Vulnerability&message=CVSSv3:%2010.%20Unauthorized%20Admin%20Access&color=red)
 
 - Shodan dork:
 ```
