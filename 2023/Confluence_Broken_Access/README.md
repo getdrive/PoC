@@ -29,5 +29,5 @@ curl -k -X POST -H "X-Atlassian-Token: no-check" --data-raw "username=adm1n&full
 ```
 ```
 Login: YourNewAdminLogin
-Pass: YourPass
+Pass:  YourNewAdminPass
 ```
