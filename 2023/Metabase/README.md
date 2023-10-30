@@ -34,7 +34,7 @@ wget https://raw.githubusercontent.com/getdrive/PoC/main/2023/Metabase/metabase_
 cp metabase_setup_token_rce.rb /usr/share/metasploit-framework/modules/exploits/linux/http/
 ```
 
-## Usage
+## Usage Metasploit
 ```
 msfdb reinit; msfconsole -q
 ```
