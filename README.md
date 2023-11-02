@@ -4,6 +4,11 @@
 ## 2023
 
 
+### F5 BIG-IP Configuration utility unauthenticated remote code execution vulnerability. CVE-2023-46747. CVSSv3 Score 9.8. 
+#### Vulnerability description.
+This vulnerability may allow an unauthenticated attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands. There is no data plane exposure; this is a control plane issue only.
+ - [BIG-IP Configuration utility unauthenticated remote code execution vulnerability Exploit](https://github.com/getdrive/PoC/tree/main/2023/F5_BIG-IP_RCE)
+
 ### Atlassian Confluence Server and Data Center -  Unauthorized Confluence Administrator Account Access. CVE-2023-22515. CVSSv3 Score 10.
 #### Vulnerability description.
 Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances.
