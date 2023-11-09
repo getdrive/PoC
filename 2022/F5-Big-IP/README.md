@@ -25,7 +25,7 @@ chmod +x scanner.sh; bash scanner.sh
 pip install aiohttp termcolor
 ```
 ```
-python3 scanner_fast.py -f list_ip
+python3 scanner_fast.py -f list_ip.txt
 ```
 - RCE:
 ```
