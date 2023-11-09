@@ -1,9 +1,10 @@
+# Author: GetDrive https://github.com/getdrive
 import asyncio
 import aiohttp
 import argparse
 from termcolor import colored
 import time
-
+#Author: GetDrive https://github.com/getdrive
 DEBUG = False
 
 async def scan_host(session, host, output_file, log_file, vulnerable_hosts):
