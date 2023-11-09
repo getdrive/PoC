@@ -4,7 +4,7 @@ import aiohttp
 import argparse
 from termcolor import colored
 import time
-#Author: GetDrive https://github.com/getdrive
+
 DEBUG = False
 
 async def scan_host(session, host, output_file, log_file, vulnerable_hosts):
@@ -40,13 +40,13 @@ async def scan_host(session, host, output_file, log_file, vulnerable_hosts):
                     print(result)  # Вывод результата на экран
                 else:
                     result = colored(f"[*] {host} doesn't appear vulnerable", 'red')
-                    print(result)  # Вывод результата на экран
+                    print(result)  
             else:
                 result = colored(f"[*] {host} doesn't appear vulnerable with status code {response.status}", 'red')
-                print(result)  # Вывод результата на экран
+                print(result)  
     except Exception as e:
         result = colored(f"[*] {host} doesn't appear vulnerable: {str(e)}", 'red')
-        print(result)  # Вывод результата на экран
+        print(result)  
 
 async def main(filename, output_file):
     with open(filename, "r") as host_file:
