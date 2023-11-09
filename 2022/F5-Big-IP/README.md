@@ -16,9 +16,16 @@ Save them to the **_list_ip_** file.
 
 Usage
 ---
-- Check:
+- Check bash:
 ```
 chmod +x scanner.sh; bash scanner.sh
+```
+- Check python:
+```
+pip install aiohttp termcolor
+```
+```
+python3 scanner_fast.py -f list_ip
 ```
 - RCE:
 ```
