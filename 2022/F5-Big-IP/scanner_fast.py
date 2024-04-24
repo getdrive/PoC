@@ -1,4 +1,4 @@
-# Author: GetDrive https://github.com/getdrive
+# Developed by: GetDrive https://github.com/getdrive
 import asyncio
 import aiohttp
 import argparse
