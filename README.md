@@ -1,6 +1,14 @@
 ![](https://img.shields.io/static/v1?label=Exploits&message=Proof%20of%20Concept&color=blue)
 ![](https://img.shields.io/static/v1?label=Threat%20Level&message=%20%20%20Critical%20%20%20&color=red)
 # PoC. Severity critical.
+## 2024
+
+
+### Command Injection Vulnerability In Progress Flowmon. CVE-2024-2389. CVSSv3 Score 10. 
+#### Vulnerability description.
+In Flowmon versions prior to 11.1.14 and 12.3.5, an operating system command injection vulnerability has been identified.  An unauthenticated user can gain entry to the system via the Flowmon management interface, allowing for the execution of arbitrary system commands. 
+ - [Command Injection Vulnerability In Progress Flowmon Exploit](https://github.com/getdrive/PoC/tree/main/2024/Flowmon_CVE-2024-2389)
+
 ## 2023
 
 
