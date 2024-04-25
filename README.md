@@ -4,10 +4,10 @@
 ## 2024
 
 
-### CrushFTP Remote Code Execution. CVE-2024-4040. CVSSv3 Score 9.8.
+### CrushFTP File Read. CVE-2024-4040. CVSSv3 Score 9.8.
 #### Vulnerability description.
 A server side template injection vulnerability in CrushFTP in all versions before 10.7.1 and 11.1.0 on all platforms allows unauthenticated remote attackers to read files from the filesystem outside of the VFS Sandbox, bypass authentication to gain administrative access, and perform remote code execution on the server. 
- - [CrushFTP Remote Code Execution Exploit](https://github.com/getdrive/PoC/tree/main/2024/CrushFTP_CVE-2024-4040)
+ - [CrushFTP File Read Exploit](https://github.com/getdrive/PoC/tree/main/2024/CrushFTP_CVE-2024-4040)
 
 ### Command Injection Vulnerability In Progress Flowmon. CVE-2024-2389. CVSSv3 Score 10. 
 #### Vulnerability description.
