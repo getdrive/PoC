@@ -10,6 +10,9 @@
 ```
 or
 ```
+pip install argparse colorama
+```
+```
 python scanner.py file_list_ip_cidr 80 -o results.txt
 ```
 ```
