@@ -16,10 +16,10 @@ pip install argparse colorama
 python scanner.py ip_cidr_list_file 80 -o results.txt
 ```
 ```
-python scanner.py ip_cidr_list_file 80, 8080-8090 -o results.txt
+python scanner.py ip_cidr_list_file 80,8080-8090 -o results.txt
 ```
 ```
-python scanner.py 192.168.1.1/24 80,8080-8090 -o results.txt
+python scanner.py 192.168.1.1/24 80,82-85,8080-8090 -o results.txt
 ```
 - POC:
 ```
